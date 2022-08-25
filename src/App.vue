@@ -12,17 +12,17 @@
             >
           </li>
           <li>
-            <router-link class="list" aria-current="page" to="/"
+            <router-link class="list" aria-current="page" to="/service"
               >Our Service</router-link
             >
           </li>
           <li>
-            <router-link class="list" aria-current="page" to="/"
+            <router-link class="list" aria-current="page" to="/about"
               >About Us</router-link
             >
           </li>
           <li>
-            <router-link class="list" aria-current="page" to="/"
+            <router-link class="list" aria-current="page" to="/contact"
               >Contact Us</router-link
             >
           </li>

@@ -2,6 +2,29 @@
     <div class="footer">
        <div class="row">
         <div class="col-lg-4 first">
+          <img src="../assets/ACE.svg">
+          <div>
+            <p>
+                Our vision was to create a vast unparalleled monopoly of luxurious companies, so as we could provide a full suite of development services to cater for all of our clienteles pacific needs.
+            </p>
+          </div>
+        </div>
+
+         
+        <div class="col-lg-4 second">
+           <h2>Information</h2>
+           <div class="navlist">
+            <ul>
+                <li>Home</li>
+                <li>Our Services</li>
+                <li>About Us</li>
+                <li>Contact Us</li>
+            </ul>
+           </div>
+        </div>
+
+
+        <div class="col-lg-4 third">
           <h2>Our Office</h2>
           <div class="office">
             <span><i class="fa-solid fa-location-dot"></i></span>
@@ -23,25 +46,7 @@
          </div>
          
         </div>
-        <div class="col-lg-4 second">
-          <img src="../assets/ACE.svg">
-          <div>
-            <p>
-                Our vision was to create a vast unparalleled monopoly of luxurious companies, so as we could provide a full suite of development services to cater for all of our clienteles pacific needs.
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-4 third">
-           <h2>Information</h2>
-           <div class="navlist">
-            <ul>
-                <li>Home</li>
-                <li>Our Services</li>
-                <li>About Us</li>
-                <li>Contact Us</li>
-            </ul>
-           </div>
-        </div>
+       
        </div>
     </div>
 </template>
@@ -57,7 +62,10 @@
     color:white;
     font-size:24px;
 }
-.first span i{
+.third{
+  padding-left:-20px;
+}
+.third span i{
     color: orange;
 }
 .office{
@@ -68,11 +76,11 @@
     padding-left:10px;
     font-size:14px
 }
-.second img{
+.first img{
     width: 100%;
     height: 80px;
 }
-.second p{
+.first p{
     color:white;
 }
 .navlist ul li{
@@ -80,10 +88,10 @@
     color:white;
     padding:6px;
 }
-.third{
+.second{
     padding-left: 30px;
 }
-.third ul li:hover{
+.second ul li:hover{
     color:orange;
     cursor:pointer;
 }
